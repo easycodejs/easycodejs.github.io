@@ -1,6 +1,6 @@
 ---
 title: "Collision 충돌판정"
-date: 2020-08-12 10:00:00 -0400
+date: 2020-08-12 10:00
 categories: Collision
 ---
 
