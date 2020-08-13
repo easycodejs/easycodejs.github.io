@@ -1,19 +1,19 @@
 # Jekyll configuration
 
 name: My blog
-description: A jekyll theme
+description: Game Programming
 
 # url is currently only used only for the RSS feed in feed.xml
-url: https://easycodejs.github.io # https://scotte.github.io/jekyll-clean
+url: https://easycodejs.github.io # 원본: https://scotte.github.io/jekyll-clean
 
 # baseurl will often be '', but for a project page on gh-pages, it needs to
 # be the project name.
 # *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
 #     run it like so: jekyll serve --baseurl=''
-baseurl: '' # /jekyll-clean
+baseurl: '' # 원본: /jekyll-clean
 
 # These can be '' to hide the Github or Gitlab nav buttons
-github: 'scotte/jekyll-clean'
+github: 'easycodejs''
 gitlab: ''
 
 # Set this to your UA-# value, or '' to disable the block completely
