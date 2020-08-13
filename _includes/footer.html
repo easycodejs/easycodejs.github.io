@@ -1,57 +1,15 @@
-<footer>
-  <div class="container">
-    <div class="row biography">
-      <div class="col-sm-4">
-        <h2>who am i</h2>
-        <p>{{ site.biography }}</p>
-      </div>
-      <div class="col-sm-4">
-        <h2>what is this</h2>
-        <p>{{ site.description }}</p>
-      </div>
-      <div class="col-sm-4">
-        <h2>where am i</h2>
-          {% if site.email %}
-          <div>
-            <a href="mailto:{{ site.email }}">
-              <span class="username">{{ site.email }}</span>
-            </a>
-          </div>
-          {% endif %}
-          {% if site.github_username %}
-          <div>
-            <a href="https://github.com/{{ site.github_username }}">
-              <span class="username">github//{{ site.github_username }}</span>
-            </a>
-          </div>
-          {% endif %}
-          {% if site.twitter_username %}
-          <div>
-            <a href="https://twitter.com/{{ site.twitter_username }}">
-              <span class="username">twitter//{{ site.twitter_username }}</span>
-            </a>
-          </div>
-          {% endif %}
-          {% if site.linkedin_username %}
-          <div>
-            <a href="https://id.linkedin.com/in/{{ site.linkedin_username }}">
-              <span class="username">linkedin//{{ site.linkedin_username }}</span>
-            </a>
-          </div>
-          {% endif %}
-          {% if site.facebook_username %}
-          <div>
-            <a href="https://www.facebook.com/{{ site.facebook_username }}">
-              <span class="username">facebook//{{ site.facebook_username }}</span>
-            </a>
-          </div>
-          {% endif %}
-      </div>
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span12 footer navbar-inverse navbar-fixed-bottom">
+            <p class="copyright">&copy;{{ site.time | date: '%Y' }} {{ site.name }}. Powered by <a href="http://jekyllrb.com">Jekyll</a>, theme by <a href="https://github.com/scotte/jekyll-clean">Scott Emmons</a>
+            under
+            <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution</a></p>
+        </div>
     </div>
-    {% if site.colophon %}
-    <div class="row copyright">
-      <center>{{ site.colophon }}</center>
-    </div>
-    {% endif %}
-  </div>
-</footer>
+</div>
+
+{% include disqus-counts.html %}
+{% include analytics.html %}
+
+</body>
+</html>

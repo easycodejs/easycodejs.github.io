@@ -1,21 +1,40 @@
-# Site settings
-title: "Software Engineering"
-author: "easycodejs"
-description: "This is a blog about software. Not necessarily in that order." # What is this의 설명
-keywords: "Software Engineering, Mathematics, Philosophy, Scala, Epistemology, Existentialism, Programming, Machine-Learning, Artificial Intelligence, Statistics, Probability, Puzzles"
-biography: "I am a Professor of Software Engineering at the PCU." # Who am I의 설명
-# colophon: "© MMXIII — MMXVI by Hugo Sereno Ferreira.<br>Content available under <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/'>Creative Commons (BY-NC-SA)</a> unless otherwise noted.<br>This site is hosted at <a href='https://pages.github.com/'>Github Pages</a> and created with <a href='http://jekyllrb.com/'>Jekyll</a>."
+# Jekyll configuration
 
-baseurl: ""
-url: "http://easycodejs.github.io"
+name: My blog
+description: A jekyll theme
 
-twitter_username: papyrus
-github_username: easycodejs
-linkedin_username: papyrus
-# facebook_username: hugo.sereno.ferreira
-# google-analytics: UA-69060-5
+# url is currently only used only for the RSS feed in feed.xml
+url: https://easycodejs.github.io # https://scotte.github.io/jekyll-clean
 
-simple_search: http://google.com/search
-markdown: kramdown
+# baseurl will often be '', but for a project page on gh-pages, it needs to
+# be the project name.
+# *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
+#     run it like so: jekyll serve --baseurl=''
+baseurl: '' # /jekyll-clean
+
+# These can be '' to hide the Github or Gitlab nav buttons
+github: 'scotte/jekyll-clean'
+gitlab: ''
+
+# Set this to your UA-# value, or '' to disable the block completely
+gaaccount: ''
+
+# The 'comments' setting enables comments. You'll need to select either
+# disqus or isso below to choose a comment system. Individual posts can
+# override 'comments' to disable on a post-by-post basis.
+comments: true
+
+# Set this to your public isso URL to enable comments via isso. Set to '' to disable isso.
+isso: ''
+
+# Set this to your disqus shortname to enable comments via disqus. Set to '' to disable disqus.
+disqus: ''
+
+permalink: /:year/:month/:title
+paginate: 3
+
 highlighter: rouge
-permalink: /blog/:year/:month/:day/:title/
+markdown: kramdown
+gems: ['jekyll-paginate']
+
+exclude: ['README.md', 'LICENSE']
