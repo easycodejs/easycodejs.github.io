@@ -1,7 +1,7 @@
 # Jekyll configuration
 
-name: My blog
-description: Game Programming
+name: 'My blog'
+description: 'Game Programming'
 
 # url is currently only used only for the RSS feed in feed.xml
 url: https://easycodejs.github.io # 원본: https://scotte.github.io/jekyll-clean
