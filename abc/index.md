@@ -28,7 +28,7 @@
 - 이미지  
 <img src="./img/관련이미지.bmp" width="100%">
 - 동영상  
-[![](img/mp4.png)](https://www.youtube.com/watch?v=5xy4n73WOMM)
+[![](https://img.youtube.com/vi/${vid}/0.jpg)](https://www.youtube.com/watch?v=5xy4n73WOMM)
 
 <br><br>
 # [대표 이미지]
