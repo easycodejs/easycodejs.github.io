@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 원형끼리 충돌 판정
-parent: collisionObject
+parent: Collision
 nav_order: 2
 ---
 
