@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 사각형끼리의 충돌 판정
-parent: Collision
+parent: collision
 nav_order: 1
 ---
 

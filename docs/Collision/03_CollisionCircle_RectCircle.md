@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 가늘고 긴 물체와 원과의 충돌 판정
-parent: Collision
+parent: collision
 nav_order: 3
 ---
 
