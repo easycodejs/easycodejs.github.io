@@ -3,7 +3,7 @@ layout: default
 title: Install & Config
 nav_order: 3
 has_children: true
-permalink: /docs/install&config
+permalink: /docs/install_config
 ---
 
 # Install & Config
